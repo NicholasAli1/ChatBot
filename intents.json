@@ -1,0 +1,167 @@
+{"intents": [
+    {"tag": "greetings",
+"patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+"responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help you?"],
+"context_set": ""
+},
+    {"tag": "goodbye",
+"patterns": ["Bye", "See you later", "Goodbye"],
+"responses": ["See you later, thanks for visiting senpai", "Have a nice day", "Bye! Come back again soon."],
+"context_set": ""
+},
+    {"tag": "thanks",
+"patterns": ["Thanks", "Thank you", "That's helpful"],
+"responses": ["Happy to help!", "Any time!", "My pleasure"],
+"context_set": ""
+},
+    {"tag": "hours",
+"patterns": ["What hours are you open?", "What are your hours?", "When are you open?"],
+"responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"],
+"context_set": ""
+},
+    {"tag": "payments",
+"patterns": ["What forms of payment do you accept?", "Do you accept Mastercard?", "Do you take VISA?"],
+"responses": ["We accept VISA and Mastercard", "We accept most major credit cards"],
+"context_set": ""
+},
+    {"tag": "delivery",
+"patterns": ["Do you deliver?", "Are you delivery?", "Can I get delivery?"],
+"responses": ["We deliver food", "Yes, we offer delivery"],
+"context_set": ""
+},
+    {"tag": "mopeds",
+"patterns": ["Do you rent mopeds?", "Can I rent a moped?", "Do you have mopeds for rent?"],
+"responses": ["We rent mopeds", "Yes, we have mopeds for rent"],
+"context_set": ""
+},
+    {"tag": "location",
+"patterns": ["Where are you located?", "What's your address?", "What is your address?"],
+"responses": ["Our address is 123 Main Street, Anytown, USA", "123 Main Street, Anytown, USA"],
+"context_set": ""
+},
+    {"tag": "directions",
+"patterns": ["How do I get there?", "Can you give me directions?", "Directions please."],
+"responses": ["I'm not sure, try Googling it?", "I don't know how to get there, sorry."],
+"context_set": ""
+},
+    {"tag": "faq",
+"patterns": ["What is your FAQ?", "What is your FAQ page?", "What is your FAQ page?"],
+"responses": ["Our FAQ page is at https://www.example.com/faq", "https://www.example.com/faq"],
+"context_set": ""
+},
+    {"tag": "orders",
+"patterns": ["Can I place an order?", "Can I order food?", "Can I order a pizza?"],
+"responses": ["Yes, you can place an order", "Yes, you can order food"],
+"context_set": ""
+},
+    {"tag": "menu",
+"patterns": ["What is your menu?", "What is your menu?", "What is your menu?"],
+"responses": ["Our menu is at https://www.example.com/menu", "https://www.example.com/menu"],
+"context_set": ""
+},
+    {"tag": "contact",
+"patterns": ["How can I contact you?", "What is your phone number?", "What is your phone number?"],
+"responses": ["Our phone number is 555-555-5555", "555-555-5555"],
+"context_set": ""
+},
+    {"tag": "name",
+"patterns": ["What is your name?", "What should I call you?", "What should I call you?"],
+"responses": ["You can call me NickBot", "You can call me NickBot"],
+"context_set": ""
+},
+    {"tag": "joke",
+"patterns": ["Tell me a joke", "Tell me a joke", "Tell me a joke"],
+"responses": ["Why did the chicken cross the road? To get to the other side!", "Why did the chicken cross the road? To get to the other side!"],
+"context_set": ""
+},
+    {"tag": "age",
+"patterns": ["How old are you?", "How old are you?", "How old are you?"],
+"responses": ["I am 1 day old", "I am 1 day old"],
+"context_set": ""
+},
+    {"tag": "creator",
+"patterns": ["Who created you?", "Who created you?", "Who created you?"],
+"responses": ["I was created by Nick", "I was created by Nick"],
+"context_set": ""
+},
+    {"tag": "time",
+"patterns": ["What time is it?", "What time is it?", "What time is it?"],
+"responses": ["It is currently 12:00 PM", "It is currently 12:00 PM"],
+"context_set": ""
+},
+    {"tag": "date",
+"patterns": ["What date is it?", "What date is it?", "What date is it?"],
+"responses": ["It is currently 1/1/2020", "It is currently 1/1/2020"],
+"context_set": ""
+},
+    {"tag": "weather",
+"patterns": ["What is the weather like?", "What is the weather like?", "What is the weather like?"],
+"responses": ["It is currently 70 degrees and sunny", "It is currently 70 degrees and sunny"],
+"context_set": ""
+},
+    {"tag": "news",
+"patterns": ["What is the news?", "What is the news?", "What is the news?"],
+"responses": ["The news is at https://www.example.com/news", "https://www.example.com/news"],
+"context_set": ""
+},
+    {"tag": "sports",
+"patterns": ["What is the sports?", "What is the sports?", "What is the sports?"],
+"responses": ["The sports is at https://www.example.com/sports", "https://www.example.com/sports"],
+"context_set": ""
+},
+    {"tag": "music",
+"patterns": ["What is the music?", "What is the music?", "What is the music?"],
+"responses": ["The music is at https://www.example.com/music", "https://www.example.com/music"],
+"context_set": ""
+},
+    {"tag": "movies",
+"patterns": ["What is the movies?", "What is the movies?", "What is the movies?"],
+"responses": ["The movies is at https://www.example.com/movies", "https://www.example.com/movies"],
+"context_set": ""
+},
+    {"tag": "tv",
+"patterns": ["What is the tv?", "What is the tv?", "What is the tv?"],
+"responses": ["The tv is at https://www.example.com/tv", "https://www.example.com/tv"],
+"context_set": ""
+},
+    {"tag": "books",
+"patterns": ["What is the books?", "What is the books?", "What is the books?"],
+"responses": ["The books is at https://www.example.com/books", "https://www.example.com/books"],
+"context_set": ""
+},
+    {"tag": "games",
+"patterns": ["What is the games?", "What is the games?", "What is the games?"],
+"responses": ["The games is at https://www.example.com/games", "https://www.example.com/games"],
+"context_set": ""
+},
+    {"tag": "travel",
+"patterns": ["What is the travel?", "What is the travel?", "What is the travel?"],
+"responses": ["The travel is at https://www.example.com/travel", "https://www.example.com/travel"],
+"context_set": ""
+},
+    {"tag": "food",
+"patterns": ["What is the food?", "What is the food?", "What is the food?"],
+"responses": ["The food is at https://www.example.com/food", "https://www.example.com/food"],
+"context_set": ""
+},
+    {"tag": "health",
+"patterns": ["What is the health?", "What is the health?", "What is the health?"],
+"responses": ["The health is at https://www.example.com/health", "https://www.example.com/health"],
+"context_set": ""
+},
+    {"tag": "finance",
+"patterns": ["What is the finance?", "What is the finance?", "What is the finance?"],
+"responses": ["The finance is at https://www.example.com/finance", "https://www.example.com/finance"],
+"context_set": ""
+},
+    {"tag": "tech",
+"patterns": ["What is the tech?", "What is the tech?", "What is the tech?"],
+"responses": ["The tech is at https://www.example.com/tech", "https://www.example.com/tech"],
+"context_set": ""
+},
+    {"tag": "science",
+"patterns": ["What is the science?", "What is the science?", "What is the science?"],
+"responses": ["The science is at https://www.example.com/science", "https://www.example.com/science"],
+"context_set": ""
+}
+]}
