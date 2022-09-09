@@ -8,7 +8,7 @@ This is a neural network based chatbot that is built using:
 - TensorFlow
 - Keras
 ## Description
-This is a ChatBot that uses Machine Learning in order to generate responses to many things that you ask it:
+This is a ChatBot that uses Machine Learning in order to generate responses to many things that you ask it
 
 
 ## Contact Information 
