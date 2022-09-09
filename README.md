@@ -1,6 +1,6 @@
 # Chat Bot
 
-This is a neural network based chatbot that is build using: 
+This is a neural network based chatbot that is built using: 
 - Python
 - Pickle
 - NUMPY
