@@ -17,5 +17,3 @@ Email: nnicholass32@gmail.com
 If you would like to contact me please feel free to!
 
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
